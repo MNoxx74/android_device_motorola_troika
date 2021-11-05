@@ -18,4 +18,4 @@
 $(call inherit-product, device/motorola/exynos9610-common/common.mk)
 
 # Inherit proprietary files
-$(call inherit-product, vendor/motorola/kane/kane-vendor.mk)
+$(call inherit-product, vendor/motorola/troika/troika-vendor.mk)

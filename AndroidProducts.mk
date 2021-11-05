@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_kane.mk
+    $(LOCAL_DIR)/cherish_troika.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_kane-user \
-    dot_kane-userdebug \
-    dot_kane-eng
+    cherish_troika-user \
+    cherish_troika-userdebug \
+    cherish_troika-eng

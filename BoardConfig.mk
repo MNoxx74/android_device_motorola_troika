@@ -17,15 +17,15 @@
 include device/motorola/exynos9610-common/BoardConfigCommon.mk
 
 ## Inherit from the proprietary configuration
-include vendor/motorola/kane/BoardConfigVendor.mk
+include vendor/motorola/troika/BoardConfigVendor.mk
 
-DEVICE_PATH := device/motorola/kane
+DEVICE_PATH := device/motorola/troika
 
 ## Assert
-TARGET_OTA_ASSERT_DEVICE := kane,one_vision
+TARGET_OTA_ASSERT_DEVICE := troika,one_action
 
 ## Kernel
-TARGET_KERNEL_CONFIG := kane_defconfig
+TARGET_KERNEL_CONFIG := troika_defconfig
 
 ## Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
